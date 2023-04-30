@@ -1,0 +1,26 @@
+{
+  "name": "electric-ice-Theme",
+  "displayName": "Electric Ice Theme",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "jennydeath",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Electric Ice Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Electric-Ice-Theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+        "type": "git",
+         "url": "https://github.com/blackpill0w/Electric-Ice-Theme"
+   }
+}
