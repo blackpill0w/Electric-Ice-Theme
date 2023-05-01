@@ -608,7 +608,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#ffcc66",
+				"foreground": "#1ea8fc",
 				"fontStyle": "italic"
 			}
 		},
