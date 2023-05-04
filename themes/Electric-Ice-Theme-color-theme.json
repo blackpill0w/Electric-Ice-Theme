@@ -220,7 +220,7 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#ffffff  "
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 				"constant.language"
 			],
 			"settings": {
-				"foreground": "#f29668"
+				"foreground": "#d4bfff"
 			}
 		},
 		{
