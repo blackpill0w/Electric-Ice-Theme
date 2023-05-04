@@ -2,7 +2,7 @@
   "name": "electric-ice-Theme",
   "displayName": "Electric Ice Theme",
   "description": "",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "publisher": "jennydeath",
   "engines": {
     "vscode": "^1.77.0"
