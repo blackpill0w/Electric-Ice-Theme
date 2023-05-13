@@ -23,7 +23,4 @@
     "type": "git",
     "url": "https://github.com/blackpill0w/Electric-Ice-Theme"
   },
-  "dependencies": {
-    "@vscode/vsce": "^2.19.0"
-  }
 }
