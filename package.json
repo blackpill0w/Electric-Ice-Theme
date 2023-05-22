@@ -3,7 +3,7 @@
   "displayName": "Electric Ice Theme",
   "description": "",
   "version": "1.16.0",
-  "publisher": "jennydeath",
+  "publisher": "blackpill0w",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -16,6 +16,11 @@
         "label": "Electric Ice Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Electric-Ice-Theme-color-theme.json"
+      },
+      {
+        "label": "Electric Ice Theme Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Electric-Ice-Theme-Darker-color-theme.json"
       }
     ]
   },
