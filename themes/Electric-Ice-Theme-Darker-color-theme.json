@@ -15,7 +15,7 @@
     "checkbox.border": "#000",
     "debugIcon.breakpointCurrentStackframeForeground": "#919191",
     "debugIcon.breakpointDisabledForeground": "#919191",
-    "debugIcon.breakpointForeground": "#919191",
+    "debugIcon.breakpointForeground": "#e00",
     "debugIcon.breakpointStackframeForeground": "#919191",
     "debugIcon.breakpointUnverifiedForeground": "#919191",
     "debugIcon.continueForeground": "#919191",
@@ -38,7 +38,7 @@
     "editor.findMatchHighlightBorder": "#000",
     "editor.symbolHighlightBackground": "#666",
     "editor.foldBackground": "#000000",
-    "editor.foreground": "#D7DAE1",
+    "editor.foreground": "#fff",
     "editor.hoverHighlightBackground": "#1B1B1B",
     "editor.lineHighlightBackground": "#1B1B1B",
     "editor.selectionBackground": "#222",
@@ -48,14 +48,14 @@
     "editorError.foreground": "#ff0000",
     "editorGroup.border": "#000",
     "editorGroupHeader.tabsBackground": "#000000",
-    "editorGroupHeader.tabsBorder": "#000",
+    "editorGroupHeader.tabsBorder": "#222",
     "editorHoverWidget.statusBarBackground": "#000000",
     "editorIndentGuide.activeBackground": "#3d3d3d",
     "editorIndentGuide.background": "#000",
     "editorInfo.foreground": "#5c5c5c",
-    "editorLightBulb.foreground": "#919191",
-    "editorLineNumber.activeForeground": "#555",
-    "editorLineNumber.foreground": "#1B1B1B",
+    "editorLightBulb.foreground": "#ff5",
+    "editorLineNumber.activeForeground": "#bbb",
+    "editorLineNumber.foreground": "#444",
     "editorLink.activeForeground": "#bfbfbf",
     "editorOverviewRuler.border": "#0a0a0a",
     "editorRuler.foreground": "#141414",
@@ -120,12 +120,12 @@
     "settings.modifiedItemIndicator": "#383838",
     "settings.textInputBorder": "#000",
     "sideBar.background": "#000000",
-    "sideBar.border": "#000",
+    "sideBar.border": "#222",
     "sideBar.foreground": "#fff",
     "sideBarSectionHeader.background": "#000000",
     "sideBarSectionHeader.border": "#000",
     "statusBar.background": "#000000",
-    "statusBar.border": "#000",
+    "statusBar.border": "#333",
     "statusBar.debuggingBackground": "#000000",
     "statusBar.debuggingBorder": "#000",
     "statusBar.debuggingForeground": "#919191",
@@ -170,7 +170,7 @@
     "symbolIcon.variableForeground": "#919191",
     "tab.activeForeground": "#fff",
     "tab.activeBackground": "#1B1B1B",
-    "tab.border": "#666",
+    "tab.border": "#222",
     "tab.inactiveBackground": "#000000",
     "tab.inactiveForeground": "#555",
     "terminal.ansiBlack": "#000000",
@@ -217,7 +217,7 @@
       }
     },
     {
-      "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array",
+      "scope": "punctuation.definition.variable, punctuation.definition.array",
       "settings": {
         "foreground": "#ffc0c0"
       }
@@ -253,9 +253,17 @@
       }
     },
     {
+      "scope": "meta.function.definition.rust, entity.name.type.lifetime.rust",
+      "settings": {
+        "foreground": "#ddd",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "scope": "support.class, entity.name.class, entity.name.type.class",
       "settings": {
-        "foreground": "#7df4f8"
+        "foreground": "#7df4f8",
+        "fontStyle": "bold"
       }
     },
     {
@@ -267,13 +275,14 @@
     {
       "scope": "keyword.other.special-method",
       "settings": {
-        "foreground": "#606060"
+        "foreground": "#B0B0B0"
       }
     },
     {
       "scope": "storage",
       "settings": {
-        "foreground": "#B0B0B0"
+        "foreground": "#7df4f8"
+        //"fontStyle": "bold"
       }
     },
     {
@@ -316,6 +325,26 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#fff"
+      }
+    },
+    {
+      "scope": "punctuation.brackets.angle.rust",
+      "settings": {
+        "foreground": "#7DF4F8"
+      }
+    },
+    {
+      "scope": "string.quoted.other.lt-gt.include.cpp, string.quoted.double.include.cpp",
+      "settings": {
+        "foreground": "#fff",
+        //"fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "constant.language.c",
+      "settings": {
+        "foreground": "#fff",
+        "fontStyle": "bold"
       }
     },
     {
@@ -432,7 +461,7 @@
     {
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#808080"
+        "foreground": "#ffd0d0"
       }
     },
     {
